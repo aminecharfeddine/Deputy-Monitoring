@@ -1,0 +1,40 @@
+name: Mise à jour des données
+
+on:
+  schedule:
+    - cron: "17 4 * * 1" # chaque lundi vers 5h-6h (heure de Paris)
+  workflow_dispatch:
+    inputs:
+      chambers:
+        description: "Chambres à mettre à jour (an senat pe), vide = toutes"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Collecte et transformation
+        run: node scripts/build-data.mjs ${{ github.event.inputs.chambers }} 2>&1 | tee build-data.log
+      - name: Commit des données si elles ont changé
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p public/data && cp build-data.log public/data/last-run.log
+          git add public/data
+          if git diff --cached --quiet; then echo "Aucun changement"; exit 0; fi
+          git commit -m "Données : mise à jour automatique du $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push
