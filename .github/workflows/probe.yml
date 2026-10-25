@@ -11,9 +11,10 @@ jobs:
       - run: bash scripts/probe.sh > /tmp/probe-output.txt 2>&1 || true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Publish output to probe-output branch
+      - name: Publish raw samples to probe-output branch
         run: |
-          cd /tmp && mkdir out && cd out && git init -q -b probe-output
-          cp /tmp/probe-output.txt . && git add .
-          git -c user.name=bot -c user.email=bot@users.noreply.github.com commit -qm "probe output"
+          mv raw /tmp/out && cp /tmp/probe-output.txt /tmp/out/ && cd /tmp/out
+          find . -type f -size +95M -delete
+          git init -q -b probe-output && git add .
+          git -c user.name=bot -c user.email=bot@users.noreply.github.com commit -qm "raw samples"
           git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" probe-output

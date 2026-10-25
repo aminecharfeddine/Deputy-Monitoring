@@ -1,46 +1,35 @@
 #!/usr/bin/env bash
-# Sonde les sources open data et affiche leur structure (diagnostic).
+# Récupère des échantillons bruts des sources dans ./raw (diagnostic / dev).
 set -u
-mkdir -p probe && cd probe
+mkdir -p raw/senat raw/pe && cd raw
+AN=https://data.assemblee-nationale.fr/static/openData/repository/17
+curl -sSL -m 300 -o an_amo.json.zip "$AN/amo/deputes_actifs_mandats_actifs_organes/AMO10_deputes_actifs_mandats_actifs_organes.json.zip"
+curl -sSL -m 300 -o an_scrutins.json.zip "$AN/loi/scrutins/Scrutins.json.zip"
 
-head_url() { echo "=== $1"; curl -sSL -o /dev/null -w "%{http_code} %{content_type} %{size_download}\n" -m 60 "$1"; }
-
-for leg in 17 18; do
-  head_url "https://data.assemblee-nationale.fr/static/openData/repository/$leg/amo/deputes_actifs_mandats_actifs_organes/AMO10_deputes_actifs_mandats_actifs_organes.json.zip"
-  head_url "https://data.assemblee-nationale.fr/static/openData/repository/$leg/loi/scrutins/Scrutins.json.zip"
+cd senat
+for f in ODSEN_GENERAL ODSEN_ELUSEN ODSEN_HISTOGROUPES ODSEN_CUR_COMS ODSEN_COMS; do
+  curl -sSL -m 60 -o "$f.csv" -w "$f %{http_code}\n" "https://data.senat.fr/data/senateurs/$f.csv"
 done
+curl -sSL -m 60 -o data_senat_home.html "https://data.senat.fr/"
+curl -sSL -m 60 -o data_senat_senateurs.html "https://data.senat.fr/les-senateurs/"
+for y in 2024 2025 2026; do curl -sSL -m 60 -o "scr$y.html" "https://www.senat.fr/scrutin-public/scr$y.html"; done
+curl -sSL -m 60 -o scr2025-340.html "https://www.senat.fr/scrutin-public/2025/scr2025-340.html"
+curl -sSL -m 60 -o scr2025-1.html "https://www.senat.fr/scrutin-public/2025/scr2025-1.html"
+curl -sSL -m 300 -o /tmp/dosleg.zip "https://data.senat.fr/data/dosleg/dosleg.zip" && unzip -l /tmp/dosleg.zip > dosleg_listing.txt
+cd ..
 
-echo "##### AN AMO10 (17)"
-curl -sSL -m 120 -o amo.zip "https://data.assemblee-nationale.fr/static/openData/repository/17/amo/deputes_actifs_mandats_actifs_organes/AMO10_deputes_actifs_mandats_actifs_organes.json.zip"
-unzip -q -o amo.zip -d amo && find amo -maxdepth 3 -type d | head; find amo -type f | wc -l
-A=$(find amo -path '*acteur*' -name '*.json' | head -1); echo "-- $A"; head -c 6000 "$A"; echo
-O=$(find amo -path '*organe*' -name '*.json' | head -1); echo "-- $O"; head -c 2500 "$O"; echo
-echo "-- organe codeType counts"; cat $(find amo -path '*organe*' -name '*.json') | grep -o '"codeType": *"[A-Z_]*"' | sort | uniq -c
-
-echo "##### AN Scrutins (17)"
-curl -sSL -m 300 -o scr.zip "https://data.assemblee-nationale.fr/static/openData/repository/17/loi/scrutins/Scrutins.json.zip"
-ls -la scr.zip; unzip -q -o scr.zip -d scr && find scr -type f | wc -l
-S=$(find scr -name '*.json' | sort | tail -1); echo "-- $S"; head -c 7000 "$S"; echo
-echo "-- sample titles"; for f in $(find scr -name '*.json' | sort | tail -40); do grep -o '"titre": *"[^"]*"' "$f" | head -1; done
-
-echo "##### NosDeputes / NosSenateurs"
-curl -sSL -m 60 "https://www.nosdeputes.fr/deputes/enmandat/json" | head -c 1500; echo
-curl -sSL -m 60 "https://www.nossenateurs.fr/senateurs/enmandat/json" | head -c 2500; echo
-
-echo "##### Senat"
-for u in \
-  "https://data.senat.fr/data/senateurs/ODSEN_GENERAL.csv" \
-  "https://data.senat.fr/data/senateurs/ODSEN_CUR_GROUPES.csv" \
-  "https://data.senat.fr/data/senateurs/ODSEN_ELUSEN.csv" \
-  "https://www.senat.fr/scrutin-public/scr2025.html" \
-  "https://www.senat.fr/scrutin-public/2025/scr2025-1.html" \
-  "https://data.senat.fr/data/dosleg/dosleg.zip" \
-  "https://data.senat.fr/scrutins/" ; do head_url "$u"; done
-curl -sSL -m 60 "https://data.senat.fr/data/senateurs/ODSEN_GENERAL.csv" | iconv -f latin1 -t utf-8 | head -5
-curl -sSL -m 60 "https://data.senat.fr/data/senateurs/ODSEN_CUR_GROUPES.csv" | iconv -f latin1 -t utf-8 | head -5
-curl -sSL -m 60 "https://www.senat.fr/scrutin-public/scr2025.html" | grep -o 'href="[^"]*scr2025[^"]*"' | head -10
-curl -sSL -m 60 "https://data.senat.fr/" | grep -io 'href="[^"]*"' | grep -i -E 'scrutin|vote' | head
-
-echo "##### Parlement europeen"
-curl -sSL -m 60 "https://data.europarl.europa.eu/api/v2/meps/show-current?format=application%2Fld%2Bjson&offset=0&limit=2" | head -c 3000; echo
-curl -sSL -m 60 -H "Authorization: Bearer $GITHUB_TOKEN" "https://api.github.com/repos/HowTheyVote/data/releases/latest" | grep -E '"(tag_name|name|browser_download_url|size)"' | head -30
+cd pe
+curl -sSL -m 60 -o meps_current.json "https://data.europarl.europa.eu/api/v2/meps/show-current?format=application%2Fld%2Bjson&offset=0&limit=1000"
+curl -sSL -m 60 -H "Authorization: Bearer $GITHUB_TOKEN" -o htv_release.json "https://api.github.com/repos/HowTheyVote/data/releases/latest"
+python3 - <<'EOF'
+import json, subprocess
+r = json.load(open("htv_release.json"))
+with open("htv_assets.txt","w") as f:
+    for a in r["assets"]:
+        f.write(f'{a["name"]} {a["size"]}\n')
+        if a["name"].endswith(".csv.gz") and a["size"] < 60_000_000:
+            subprocess.run(["curl","-sSL","-m","300","-o",a["name"],a["browser_download_url"]])
+EOF
+for f in *.csv.gz; do echo "== $f"; zcat "$f" | head -3; done > htv_heads.txt
+cd ..
+du -sh * */* | sort -h | tail -40 > sizes.txt
