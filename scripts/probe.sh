@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 set -u
 mkdir -p raw/senat && cd raw/senat
-for u in https://www.senat.fr/scrutin-public/2025/scr2025-340.json https://www.senat.fr/scrutin-public/scr2025-340.json https://www.senat.fr/scrutin-public/2026/scr2026-1.json https://www.senat.fr/scrutin-public/2024/scr2024-200.json; do
-  echo "== $u"; curl -sSL -m 60 -o "$(basename $u)" -w "%{http_code} %{content_type} %{size_download}\n" "$u"
-done
-curl -sSL -m 60 https://www.senat.fr/scrutin-public/2025/scr2025-340.html | grep -o '<script[^>]*src="[^"]*"' | head -20 > scripts_tags.txt
+for y in 2024 2025 2026; do curl -sSL -m 60 -o "scr$y.html" "https://www.senat.fr/scrutin-public/scr$y.html"; done
+for f in ODSEN_GENERAL ODSEN_CUR_COMS; do curl -sSL -m 60 -o "$f.csv" "https://data.senat.fr/data/senateurs/$f.csv"; done
+curl -sSL -m 60 -o scr2025-340.json https://www.senat.fr/scrutin-public/2025/scr2025-340.json
+curl -sSL -m 60 -o senateur_page.html "https://www.senat.fr/senateur/aeschlimann_marie_do21071f.html"
+curl -sSL -m 60 -o liste.html "https://www.senat.fr/senateurs/senatl.html"
 ls -la
