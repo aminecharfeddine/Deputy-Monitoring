@@ -1,0 +1,91 @@
+@import "tailwindcss";
+@import "@fontsource-variable/archivo/wdth.css";
+
+:root {
+  --paper: #f3f5f7;
+  --surface: #ffffff;
+  --ink: #142037;
+  --ink-soft: #4a5468;
+  --ink-faint: #7c8596;
+  --rule: #d8dde4;
+  --rule-strong: #b9c0cb;
+  --velvet: #8f1d2c;
+  --focus: #1d4ed8;
+
+  --vote-pour: #1f7a4d;
+  --vote-contre: #b42318;
+  --vote-abst: #d99a16;
+  --vote-nv: #8c95a3;
+  --vote-absent: #dfe3e8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #0f1522;
+    --surface: #161e2e;
+    --ink: #e7ebf2;
+    --ink-soft: #b0b8c7;
+    --ink-faint: #7f899b;
+    --rule: #263048;
+    --rule-strong: #38445f;
+    --velvet: #e0677a;
+    --focus: #7aa2ff;
+    --vote-pour: #3fb67c;
+    --vote-contre: #f0614f;
+    --vote-abst: #f2b63c;
+    --vote-nv: #7f899b;
+    --vote-absent: #2a3348;
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-faint: var(--ink-faint);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-velvet: var(--velvet);
+  --font-sans: "Archivo Variable", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-variation-settings: "wdth" 100;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: var(--paper);
+}
+
+/* Étroit gras : noms d'élus et titres */
+.narrow {
+  font-stretch: 72%;
+  font-variation-settings: "wdth" 72;
+  letter-spacing: -0.005em;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.seat {
+  transition: opacity 160ms ease, r 160ms ease;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .seat {
+    transition: none;
+  }
+}
