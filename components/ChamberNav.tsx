@@ -10,7 +10,7 @@ const ITEMS = [
 ];
 
 export function ChamberNav() {
-  const current = usePathname().split("/")[1];
+  const current = usePathname().split("/")[2];
   return (
     <nav aria-label="Institution" className="flex rounded-full border border-rule bg-paper p-1">
       {ITEMS.map((it) => {
@@ -18,7 +18,7 @@ export function ChamberNav() {
         return (
           <Link
             key={it.key}
-            href={`/${it.key}`}
+            href={`/hemicycles/${it.key}`}
             aria-current={active ? "page" : undefined}
             className={`rounded-full px-3.5 py-1.5 text-sm transition-colors ${
               active ? "bg-ink font-semibold text-paper" : "text-ink-soft hover:text-ink"

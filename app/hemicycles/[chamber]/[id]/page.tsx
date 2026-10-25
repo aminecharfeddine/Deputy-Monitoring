@@ -67,7 +67,7 @@ export default async function MemberPage({ params }: { params: Promise<{ chamber
   return (
     <div className="mx-auto max-w-7xl px-4 pb-16 pt-6 sm:px-6">
       <nav aria-label="Fil d'Ariane" className="text-sm text-ink-soft">
-        <Link href={`/${chamber}`} className="underline-offset-4 hover:text-ink hover:underline">
+        <Link href={`/hemicycles/${chamber}`} className="underline-offset-4 hover:text-ink hover:underline">
           {data.label}
         </Link>
         <span className="mx-2 text-ink-faint">/</span>

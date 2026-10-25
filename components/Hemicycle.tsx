@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { Photo } from "./Photo";
 import { layoutSeats } from "@/lib/hemicycle";
@@ -36,14 +36,15 @@ export function Hemicycle({
   countries: [string, string][];
 }) {
   const router = useRouter();
+  const initialVote = useSearchParams().get("vote") ?? "";
   const groupById = useMemo(() => new Map(groups.map((g) => [g.id, g])), [groups]);
   const { seats, dot } = useMemo(() => layoutSeats(members.length), [members.length]);
 
-  const [mode, setMode] = useState<"groupe" | "vote">("groupe");
+  const [mode, setMode] = useState<"groupe" | "vote">(initialVote ? "vote" : "groupe");
   const [voteData, setVoteData] = useState<VoteData | null>(null);
   const [loadError, setLoadError] = useState(false);
   const [topic, setTopic] = useState<string>("");
-  const [voteId, setVoteId] = useState<string>("");
+  const [voteId, setVoteId] = useState<string>(initialVote);
   const [groupFilter, setGroupFilter] = useState<string | null>(null);
   const [country, setCountry] = useState<string>("");
   const [query, setQuery] = useState("");
@@ -222,7 +223,7 @@ export function Hemicycle({
                   strokeWidth={active ? 2 : 0}
                   opacity={dim ? 0.13 : 1}
                   onMouseEnter={() => setHovered(m.id)}
-                  onClick={() => router.push(`/${chamber}/${m.id}`)}
+                  onClick={() => router.push(`/hemicycles/${chamber}/${m.id}`)}
                 >
                   <title>{`${m.name} — ${groupById.get(m.group)?.short ?? ""}`}</title>
                 </circle>
@@ -309,7 +310,7 @@ export function Hemicycle({
                 {matches.map((m) => (
                   <li key={m.id}>
                     <Link
-                      href={`/${chamber}/${m.id}`}
+                      href={`/hemicycles/${chamber}/${m.id}`}
                       onMouseEnter={() => setHovered(m.id)}
                       onFocus={() => setHovered(m.id)}
                       className="flex items-center gap-3 px-4 py-2 hover:bg-paper"
@@ -391,7 +392,7 @@ function MemberCard({
         </p>
       )}
       <Link
-        href={`/${chamber}/${member.id}`}
+        href={`/hemicycles/${chamber}/${member.id}`}
         className="mt-4 inline-block rounded-lg bg-ink px-4 py-2 text-sm font-semibold text-paper hover:opacity-90"
       >
         Voir la fiche et les votes

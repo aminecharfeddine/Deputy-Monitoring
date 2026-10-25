@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { CHAMBERS, isChamber, loadChamber } from "@/lib/data";
 import { formatDate, plural } from "@/lib/format";
@@ -58,6 +59,7 @@ export default async function ChamberPage({ params }: { params: Promise<{ chambe
         </p>
       </div>
 
+      <Suspense fallback={<div className="mt-6 aspect-[2/1] w-full" />}>
       <Hemicycle
         chamber={chamber}
         memberLabel={data.memberLabel}
@@ -66,6 +68,7 @@ export default async function ChamberPage({ params }: { params: Promise<{ chambe
         topics={data.topics}
         countries={countries}
       />
+      </Suspense>
     </div>
   );
 }

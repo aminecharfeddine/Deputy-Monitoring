@@ -17,6 +17,15 @@
   --vote-abst: #d99a16;
   --vote-nv: #8c95a3;
   --vote-absent: #dfe3e8;
+
+  /* Statut des affirmations juridiques */
+  --st-vigueur: #1d6b46;
+  --st-historique: #6b7280;
+  --st-reforme: #a15c00;
+  --st-jurisprudence: #3346a0;
+  --st-doctrine: #7b3f8c;
+  --st-analyse: #1f6c7a;
+  --st-debat: #a3303f;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,6 +44,13 @@
     --vote-abst: #f2b63c;
     --vote-nv: #7f899b;
     --vote-absent: #2a3348;
+    --st-vigueur: #4fc28a;
+    --st-historique: #9aa3b2;
+    --st-reforme: #f0a640;
+    --st-jurisprudence: #8c9cff;
+    --st-doctrine: #cf8be0;
+    --st-analyse: #5cc6d6;
+    --st-debat: #f07a88;
   }
 }
 

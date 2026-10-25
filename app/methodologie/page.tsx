@@ -88,6 +88,23 @@ export default function Methodologie() {
         </li>
       </ul>
 
+      <h2 className="narrow mt-12 text-3xl font-bold">Rubrique Recherche</h2>
+      <div className="mt-4 space-y-4 leading-relaxed">
+        <p>
+          <strong>Dossiers sourcés.</strong> Rédigés à l&apos;avance, ils ne sont pas générés à la volée. Chaque affirmation est
+          rattachée à au moins une source numérotée et porte un statut : droit en vigueur, droit historique, réforme ou projet,
+          jurisprudence, doctrine, analyse institutionnelle ou débat politique. Les articles de code sont cités d&apos;après
+          l&apos;open data officiel de Légifrance (base LEGI de la DILA) et renvoient vers Légifrance ; les décisions renvoient
+          vers le site de la juridiction. Chaque dossier indique sa date de vérification et ses limites.
+        </p>
+        <p>
+          <strong>Recherche en direct.</strong> Pour un sujet sans dossier, le navigateur interroge directement des bases
+          ouvertes (Wikipédia pour situer la notion, HAL et OpenAlex pour les travaux universitaires) et les scrutins du site.
+          Ces résultats ne sont ni résumés ni vérifiés. Les bases officielles sans accès ouvert (Légifrance, Judilibre, HUDOC,
+          EUR-Lex) sont proposées sous forme de recherches préremplies.
+        </p>
+      </div>
+
       <h2 className="narrow mt-12 text-3xl font-bold">Mise à jour</h2>
       <p className="mt-4 leading-relaxed">
         Une tâche automatique télécharge les sources chaque lundi matin, régénère les fichiers et redéploie le site. Si une
