@@ -24,6 +24,8 @@ CODES = {
     "LEGITEXT000006071307": "defense",
     "LEGITEXT000006071154": "cpp",
     "LEGITEXT000006070721": "civil",
+    "LEGITEXT000006072665": "csp",  # code de la santé publique
+    "LEGITEXT000006072026": "cmf",  # code monétaire et financier
 }
 OUT = sys.argv[1] if len(sys.argv) > 1 else "."
 os.makedirs(OUT, exist_ok=True)
