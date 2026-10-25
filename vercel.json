@@ -1,0 +1,8 @@
+{
+  "git": {
+    "deploymentEnabled": {
+      "probe-output": false,
+      "legi-data": false
+    }
+  }
+}

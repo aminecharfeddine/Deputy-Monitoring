@@ -1,0 +1,24 @@
+name: Extraction LEGI (codes en vigueur)
+
+# Outil de vérification pour la rédaction des dossiers : extrait le texte officiel
+# des articles en vigueur (open data Légifrance / DILA) et le publie sur la branche legi-data.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  legi:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extraction
+        run: python3 scripts/legi-extract.py /tmp/legi
+      - name: Publication sur la branche legi-data
+        run: |
+          cd /tmp/legi
+          git init -q -b legi-data && git add .
+          git -c user.name=github-actions -c user.email=41898282+github-actions[bot]@users.noreply.github.com commit -qm "Extraction LEGI du $(date -u +%Y-%m-%d)"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" legi-data

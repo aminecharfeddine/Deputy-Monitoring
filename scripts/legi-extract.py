@@ -94,7 +94,7 @@ for s in incrementals:
 
 by_code = {}
 for a in articles.values():
-    if a["etat"] in ("VIGUEUR", "VIGUEUR_DIFF"):
+    if a["etat"] in ("VIGUEUR", "VIGUEUR_DIFF", "ABROGE_DIFF"):  # ABROGE_DIFF : encore applicable jusqu'à sa date de fin
         by_code.setdefault(a.pop("code"), []).append(a)
 for code, arts in by_code.items():
     with gzip.open(os.path.join(OUT, f"legi_{code}.json.gz"), "wt") as f:

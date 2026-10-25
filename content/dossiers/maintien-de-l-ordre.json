@@ -20,101 +20,175 @@
     {
       "text": "Le maintien de l'ordre désigne l'action des autorités publiques pour prévenir et faire cesser les troubles à l'ordre public lors des rassemblements sur la voie publique. Il se situe à la rencontre de deux exigences constitutionnelles : la liberté d'exprimer collectivement ses idées, reconnue par le Conseil constitutionnel, et le devoir de l'État d'assurer la sécurité et le maintien de l'ordre public.",
       "status": "vigueur",
-      "sources": ["ddhc", "cc-94-352", "csi-l111-1"]
+      "sources": [
+        "ddhc",
+        "cc-94-352",
+        "csi-l111-1"
+      ]
     },
     {
       "text": "Le droit distingue deux situations. La manifestation sur la voie publique relève d'un régime de déclaration préalable, et non d'autorisation : l'autorité de police peut seulement l'interdire si elle estime qu'elle est de nature à troubler l'ordre public. L'attroupement, défini par le code pénal comme un rassemblement susceptible de troubler l'ordre public, peut être dispersé par la force après deux sommations restées sans effet.",
       "status": "vigueur",
-      "sources": ["csi-l211-1", "csi-l211-4", "penal-431-3", "csi-l211-9"]
+      "sources": [
+        "csi-l211-1",
+        "csi-l211-4",
+        "penal-431-3",
+        "csi-l211-9"
+      ]
     },
     {
       "text": "Les compétences sont partagées : le maire exerce la police municipale, mais dans les communes à police d'État, c'est l'État qui a la charge des attroupements et des grands rassemblements occasionnels. Le préfet, et à Paris le préfet de police, reçoit les déclarations, peut se substituer au maire et décide de l'emploi de la force après sommation.",
       "status": "vigueur",
-      "sources": ["cgct-l2212-2", "cgct-l2214-4", "cgct-l2215-1", "csi-l211-2", "csi-r211-21"]
+      "sources": [
+        "cgct-l2212-2",
+        "cgct-l2214-4",
+        "cgct-l2215-1",
+        "csi-l211-2",
+        "csi-r211-21"
+      ]
     },
     {
       "text": "Les juges encadrent fortement ces pouvoirs. Depuis l'arrêt Benjamin (1933), le juge administratif vérifie que toute restriction de police est nécessaire et proportionnée. En 2019, le Conseil constitutionnel a censuré l'interdiction administrative individuelle de manifester. En 2021, le Conseil d'État a annulé plusieurs points du schéma national du maintien de l'ordre, dont l'encerclement des manifestants (« nasse ») tel qu'il était rédigé.",
       "status": "jurisprudence",
-      "sources": ["ce-benjamin", "cc-2019-780", "ce-444849"]
+      "sources": [
+        "ce-benjamin",
+        "cc-2019-780",
+        "ce-444849"
+      ]
     },
     {
       "text": "Le sujet reste disputé au Parlement. La loi du 18 août 2026 sur les phénomènes troublant l'ordre public a été partiellement censurée par le Conseil constitutionnel. Une proposition de loi créant une présomption de légitime défense pour les forces de l'ordre a été adoptée par l'Assemblée nationale le 7 juillet 2026 et transmise au Sénat.",
       "status": "reforme",
-      "sources": ["loi-2026-798", "cc-2026-915", "ppl-legitime-defense", "an-scrutin-7987"]
+      "sources": [
+        "loi-2026-798",
+        "cc-2026-915",
+        "ppl-legitime-defense",
+        "an-scrutin-7987"
+      ]
     }
   ],
   "definitions": [
     {
       "term": "Ordre public",
       "text": "Notion de police administrative. Pour la police municipale, le code général des collectivités territoriales lui donne pour objet le bon ordre, la sûreté, la sécurité et la salubrité publiques, ce qui comprend la répression des atteintes à la tranquillité publique, dont les attroupements.",
-      "sources": ["cgct-l2212-2"]
+      "sources": [
+        "cgct-l2212-2"
+      ]
     },
     {
       "term": "Manifestation sur la voie publique",
       "text": "Cortèges, défilés et rassemblements de personnes sur la voie publique. Ils sont soumis à déclaration préalable, sauf les sorties conformes aux usages locaux. Les réunions publiques relèvent d'un autre régime, celui de la loi du 30 juin 1881.",
-      "sources": ["csi-l211-1"]
+      "sources": [
+        "csi-l211-1"
+      ]
     },
     {
       "term": "Attroupement",
       "text": "Tout rassemblement de personnes sur la voie publique ou dans un lieu public susceptible de troubler l'ordre public. Une manifestation peut le devenir si elle remplit cette condition ; l'attroupement autorise alors la dispersion par la force après sommations.",
-      "sources": ["penal-431-3"]
+      "sources": [
+        "penal-431-3"
+      ]
     },
     {
       "term": "Sommations",
       "text": "Avertissements obligatoires avant la dispersion par la force. Depuis 2021, la formule est fixée par décret : une annonce (« Vous participez à un attroupement… »), puis une première et une dernière sommation, au haut-parleur ou par fusée rouge. La dernière doit être répétée avant l'usage des grenades et lanceurs.",
-      "sources": ["csi-r211-11"]
+      "sources": [
+        "csi-r211-11"
+      ]
     },
     {
       "term": "Interdiction de manifestation",
       "text": "Arrêté par lequel l'autorité de police interdit une manifestation qu'elle estime de nature à troubler l'ordre public. À distinguer de l'interdiction individuelle de manifester visant une personne, censurée par le Conseil constitutionnel en 2019.",
-      "sources": ["csi-l211-4", "cc-2019-780"]
+      "sources": [
+        "csi-l211-4",
+        "cc-2019-780"
+      ]
     },
     {
       "term": "Encerclement (« nasse »)",
       "text": "Technique consistant à encercler un groupe de manifestants. Le Conseil d'État a annulé en 2021 le point du schéma national du maintien de l'ordre qui la prévoyait, faute d'en encadrer les cas d'usage ; le ministère a publié une version révisée en décembre 2021.",
-      "sources": ["ce-444849", "snmo"]
+      "sources": [
+        "ce-444849",
+        "snmo"
+      ]
     }
   ],
   "actors": [
     {
       "name": "Organisateurs",
       "role": "Déclarent la manifestation à la mairie (à Paris, à la préfecture de police ; au préfet dans les communes à police d'État) entre 3 et 15 jours francs avant la date. Organiser une manifestation non déclarée ou interdite est un délit puni de six mois d'emprisonnement et 7 500 € d'amende.",
-      "sources": ["csi-l211-2", "penal-431-9"]
+      "sources": [
+        "csi-l211-2",
+        "penal-431-9"
+      ]
     },
     {
       "name": "Maire",
       "role": "Chargé de la police municipale, y compris la répression des attroupements et le bon ordre lors des grands rassemblements. Reçoit les déclarations, peut interdire une manifestation et procéder aux sommations (sauf à Paris). Dans les communes à police d'État, la tranquillité publique et les grands rassemblements occasionnels relèvent de l'État.",
-      "sources": ["cgct-l2212-1", "cgct-l2212-2", "csi-l211-4", "csi-l211-9", "cgct-l2214-4"]
+      "sources": [
+        "cgct-l2212-1",
+        "cgct-l2212-2",
+        "csi-l211-4",
+        "csi-l211-9",
+        "cgct-l2214-4"
+      ]
     },
     {
       "name": "Préfet (représentant de l'État)",
       "role": "Peut interdire le port d'objets pouvant servir d'arme autour d'une manifestation, se substituer au maire qui n'a pas pris l'arrêté nécessaire, agir seul quand la mesure dépasse une commune, procéder aux sommations et décider sur place de l'emploi de la force.",
-      "sources": ["csi-l211-3", "csi-l211-4", "cgct-l2215-1", "csi-l211-9", "csi-r211-21"]
+      "sources": [
+        "csi-l211-3",
+        "csi-l211-4",
+        "cgct-l2215-1",
+        "csi-l211-9",
+        "csi-r211-21"
+      ]
     },
     {
       "name": "Préfet de police (Paris)",
       "role": "Reçoit les déclarations de manifestation à Paris et procède aux sommations ; il exerce à Paris les pouvoirs de police hérités de l'arrêté du 12 messidor an VIII, le maire de Paris ne conservant que des polices spéciales énumérées.",
-      "sources": ["csi-l211-2", "csi-l211-9", "cgct-l2512-13"]
+      "sources": [
+        "csi-l211-2",
+        "csi-l211-9",
+        "cgct-l2512-13"
+      ]
     },
     {
       "name": "Ministre de l'Intérieur et État",
       "role": "L'État a le devoir d'assurer le maintien de l'ordre public sur tout le territoire. Il est civilement responsable des dommages causés par les attroupements. Le ministre fixe la doctrine d'emploi des forces par le schéma national du maintien de l'ordre, soumis au contrôle du Conseil d'État.",
-      "sources": ["csi-l111-1", "csi-l211-10", "ce-444849"]
+      "sources": [
+        "csi-l111-1",
+        "csi-l211-10",
+        "ce-444849"
+      ]
     },
     {
       "name": "Police et gendarmerie nationales",
       "role": "Exécutent les opérations. La force n'est possible que si elle est absolument nécessaire et proportionnée au trouble, et doit cesser avec lui. Les armes à feu utilisables pour le maintien de l'ordre sont limitativement listées (grenades et lanceurs). L'emploi des moyens militaires spécifiques de la gendarmerie est soumis à autorisation.",
-      "sources": ["csi-r211-13", "csi-r211-16", "csi-d211-17", "defense-l1321-1"]
+      "sources": [
+        "csi-r211-13",
+        "csi-r211-16",
+        "csi-d211-17",
+        "defense-l1321-1"
+      ]
     },
     {
       "name": "Officiers de police judiciaire",
       "role": "Tout officier de police judiciaire peut procéder aux sommations. Sur réquisitions écrites du procureur de la République, fouilles et inspections de bagages sont possibles aux abords d'une manifestation pour rechercher le port d'arme.",
-      "sources": ["csi-l211-9", "cpp-78-2-5"]
+      "sources": [
+        "csi-l211-9",
+        "cpp-78-2-5"
+      ]
     },
     {
       "name": "Juges",
       "role": "Le juge administratif contrôle la nécessité et la proportionnalité des interdictions et de la doctrine d'emploi ; le Conseil constitutionnel contrôle les lois ; la Cour européenne des droits de l'homme applique l'article 11 de la Convention (liberté de réunion pacifique).",
-      "sources": ["ce-benjamin", "ce-444849", "cc-2019-780", "cedh-ezelin"]
+      "sources": [
+        "ce-benjamin",
+        "ce-444849",
+        "cc-2019-780",
+        "cedh-ezelin"
+      ]
     }
   ],
   "sections": [
@@ -125,22 +199,31 @@
         {
           "text": "La Déclaration de 1789 protège la manifestation des opinions « pourvu que leur manifestation ne trouble pas l'ordre public établi par la loi » (art. 10) et institue une « force publique » pour « l'avantage de tous » (art. 12).",
           "status": "vigueur",
-          "sources": ["ddhc"]
+          "sources": [
+            "ddhc"
+          ]
         },
         {
           "text": "Le Conseil constitutionnel rattache la liberté de manifester au « droit d'expression collective des idées et des opinions », qu'il protège depuis sa décision de 1995 sur la loi d'orientation et de programmation relative à la sécurité.",
           "status": "jurisprudence",
-          "sources": ["cc-94-352", "cc-2019-780"]
+          "sources": [
+            "cc-94-352",
+            "cc-2019-780"
+          ]
         },
         {
           "text": "La Cour européenne des droits de l'homme juge que l'État doit prendre des mesures raisonnables et appropriées pour qu'une manifestation licite se déroule pacifiquement, y compris face à des contre-manifestants : c'est une obligation de moyens, non de résultat.",
           "status": "jurisprudence",
-          "sources": ["cedh-plattform"]
+          "sources": [
+            "cedh-plattform"
+          ]
         },
         {
           "text": "La France a été condamnée en 1991 pour avoir sanctionné un avocat ayant participé à une manifestation licite sans y commettre lui-même d'acte répréhensible : la liberté de réunion pacifique ne peut être restreinte pour ce seul motif.",
           "status": "jurisprudence",
-          "sources": ["cedh-ezelin"]
+          "sources": [
+            "cedh-ezelin"
+          ]
         }
       ]
     },
@@ -151,32 +234,47 @@
         {
           "text": "Tous cortèges, défilés et rassemblements sur la voie publique sont soumis à déclaration préalable, sauf les sorties conformes aux usages locaux.",
           "status": "vigueur",
-          "sources": ["csi-l211-1"]
+          "sources": [
+            "csi-l211-1"
+          ]
         },
         {
           "text": "La déclaration est déposée 3 à 15 jours francs avant la date, à la mairie (à Paris, à la préfecture de police ; au préfet dans les communes à police d'État). Elle indique les organisateurs, le but, le lieu, la date, l'heure et l'itinéraire ; l'autorité en délivre immédiatement récépissé.",
           "status": "vigueur",
-          "sources": ["csi-l211-2"]
+          "sources": [
+            "csi-l211-2"
+          ]
         },
         {
           "text": "Si l'autorité de police estime la manifestation de nature à troubler l'ordre public, elle l'interdit par arrêté notifié aux signataires. Si le maire s'abstient, le préfet peut y pourvoir.",
           "status": "vigueur",
-          "sources": ["csi-l211-4", "cgct-l2215-1"]
+          "sources": [
+            "csi-l211-4",
+            "cgct-l2215-1"
+          ]
         },
         {
           "text": "Participer à une manifestation interdite est une contravention de 4e classe. Organiser une manifestation non déclarée ou interdite, ou faire une déclaration trompeuse, est un délit (six mois d'emprisonnement, 7 500 € d'amende).",
           "status": "vigueur",
-          "sources": ["penal-r644-4", "penal-431-9"]
+          "sources": [
+            "penal-r644-4",
+            "penal-431-9"
+          ]
         },
         {
           "text": "Dissimuler volontairement son visage sans motif légitime, au sein ou aux abords d'une manifestation où des troubles sont commis ou risquent de l'être, est puni d'un an d'emprisonnement et 15 000 € d'amende. Porter une arme dans une manifestation est puni de trois ans et 45 000 €.",
           "status": "vigueur",
-          "sources": ["penal-431-9-1", "penal-431-10"]
+          "sources": [
+            "penal-431-9-1",
+            "penal-431-10"
+          ]
         },
         {
           "text": "En cas de crainte de troubles graves, le préfet peut interdire, dans un périmètre proportionné et dès les 24 heures précédant la manifestation jusqu'à sa dispersion, le port et le transport sans motif légitime d'objets pouvant constituer une arme.",
           "status": "vigueur",
-          "sources": ["csi-l211-3"]
+          "sources": [
+            "csi-l211-3"
+          ]
         }
       ]
     },
@@ -187,42 +285,62 @@
         {
           "text": "Un attroupement peut être dissipé par la force publique après deux sommations restées sans effet, adressées par le préfet (à Paris, le préfet de police), le maire ou un adjoint (sauf à Paris), ou un officier de police judiciaire, porteurs de leurs insignes.",
           "status": "vigueur",
-          "sources": ["csi-l211-9", "csi-r211-12"]
+          "sources": [
+            "csi-l211-9",
+            "csi-r211-12"
+          ]
         },
         {
           "text": "Les forces peuvent toutefois faire directement usage de la force si des violences ou voies de fait sont exercées contre elles ou si elles ne peuvent défendre autrement le terrain qu'elles occupent.",
           "status": "vigueur",
-          "sources": ["csi-l211-9"]
+          "sources": [
+            "csi-l211-9"
+          ]
         },
         {
           "text": "Une autorité civile (corps préfectoral, maire ou adjoint, responsable de la police ou de la gendarmerie mandaté) doit être présente sur les lieux pour décider, le cas échéant, de l'emploi de la force après sommation.",
           "status": "vigueur",
-          "sources": ["csi-r211-21"]
+          "sources": [
+            "csi-r211-21"
+          ]
         },
         {
           "text": "L'emploi de la force n'est possible que s'il est absolument nécessaire au maintien de l'ordre public ; la force doit être proportionnée au trouble et cesser avec lui.",
           "status": "vigueur",
-          "sources": ["csi-r211-13"]
+          "sources": [
+            "csi-r211-13"
+          ]
         },
         {
           "text": "Hors légitime défense des forces ou défense du terrain, les armes à feu ne peuvent être employées que sur ordre exprès et traçable de l'autorité habilitée ; seules certaines grenades, leurs lanceurs (40 et 56 mm) et les grenades à main de désencerclement sont autorisés.",
           "status": "vigueur",
-          "sources": ["csi-r211-14", "csi-r211-16", "csi-d211-17"]
+          "sources": [
+            "csi-r211-14",
+            "csi-r211-16",
+            "csi-d211-17"
+          ]
         },
         {
           "text": "Continuer à participer à un attroupement après les sommations est puni d'un an d'emprisonnement et 15 000 € d'amende (trois ans et 45 000 € en cas de visage dissimulé). Y participer armé est puni de trois ans, et jusqu'à cinq ans dans les cas aggravés.",
           "status": "vigueur",
-          "sources": ["penal-431-4", "penal-431-5"]
+          "sources": [
+            "penal-431-4",
+            "penal-431-5"
+          ]
         },
         {
           "text": "En dehors du maintien de l'ordre proprement dit, policiers et gendarmes peuvent faire usage de leurs armes en cas d'absolue nécessité et de manière strictement proportionnée, dans cinq cas énumérés (atteintes à la vie, défense des lieux après sommations, fuite dangereuse, refus d'obtempérer dangereux, réitération de meurtres).",
           "status": "vigueur",
-          "sources": ["csi-l435-1"]
+          "sources": [
+            "csi-l435-1"
+          ]
         },
         {
           "text": "L'État est civilement responsable des dommages causés par les crimes et délits commis par des attroupements ou rassemblements, avec une action récursoire contre les auteurs.",
           "status": "vigueur",
-          "sources": ["csi-l211-10"]
+          "sources": [
+            "csi-l211-10"
+          ]
         }
       ]
     },
@@ -233,27 +351,38 @@
         {
           "text": "Conseil d'État, 19 mai 1933, Benjamin : l'interdiction d'une conférence par un maire est annulée. Le juge vérifie la réalité de la menace et la proportionnalité de la mesure ; la liberté est la règle, la restriction de police l'exception.",
           "status": "jurisprudence",
-          "sources": ["ce-benjamin"]
+          "sources": [
+            "ce-benjamin"
+          ]
         },
         {
           "text": "Conseil constitutionnel, n° 2019-780 DC du 4 avril 2019 : censure de l'interdiction administrative individuelle de manifester, qui laissait à l'administration une latitude excessive ; validation des fouilles sur réquisition du procureur et du délit de dissimulation du visage.",
           "status": "jurisprudence",
-          "sources": ["cc-2019-780"]
+          "sources": [
+            "cc-2019-780"
+          ]
         },
         {
           "text": "Conseil d'État, 10 juin 2021, n° 444849 : annulation de quatre points du schéma national du maintien de l'ordre (encerclement, obligation pour les journalistes de se disperser, conditions de port d'équipements de protection, accréditation discrétionnaire). Les journalistes et observateurs indépendants peuvent rester sur place pendant une dispersion s'ils ne sont pas confondus avec les manifestants.",
           "status": "jurisprudence",
-          "sources": ["ce-444849", "ce-bilan-2021"]
+          "sources": [
+            "ce-444849",
+            "ce-bilan-2021"
+          ]
         },
         {
           "text": "Conseil constitutionnel, n° 2021-817 DC du 20 mai 2021 : censure du délit de « provocation à l'identification » des forces de l'ordre (ex-article 24 de la proposition de loi « sécurité globale »), jugé insuffisamment défini.",
           "status": "jurisprudence",
-          "sources": ["cc-2021-817"]
+          "sources": [
+            "cc-2021-817"
+          ]
         },
         {
           "text": "Conseil constitutionnel, n° 2026-915 DC du 14 août 2026 : censure partielle de la loi sur les phénomènes troublant l'ordre public, avec une réserve sur l'interdiction de louer du matériel de sonorisation, limitée aux rassemblements déterminés soumis à déclaration.",
           "status": "jurisprudence",
-          "sources": ["cc-2026-915"]
+          "sources": [
+            "cc-2026-915"
+          ]
         }
       ]
     },
@@ -265,23 +394,38 @@
         {
           "text": "Les règles sur les manifestations et les attroupements, auparavant réparties entre plusieurs textes, ont été regroupées dans le code de la sécurité intérieure, dont la partie législative est entrée en vigueur le 1er mai 2012.",
           "status": "historique",
-          "sources": ["csi-l211-1", "csi-l211-9"],
+          "sources": [
+            "csi-l211-1",
+            "csi-l211-9"
+          ],
           "uncertain": "La date retenue est celle de la plus ancienne version des articles dans la base Légifrance ; les textes antérieurs à la codification ne sont pas analysés ici."
         },
         {
           "text": "La loi du 10 avril 2019 visant à renforcer et garantir le maintien de l'ordre public lors des manifestations a créé le délit de dissimulation du visage et les fouilles sur réquisition aux abords des manifestations ; son interdiction individuelle de manifester a été censurée.",
           "status": "historique",
-          "sources": ["penal-431-9-1", "cpp-78-2-5", "cc-2019-780"]
+          "sources": [
+            "penal-431-9-1",
+            "cpp-78-2-5",
+            "cc-2019-780"
+          ]
         },
         {
           "text": "Les formules de sommation ont été réécrites en mai 2021, et la liste des autorités pouvant décider de l'emploi de la force a été élargie aux membres du corps préfectoral et directeurs de cabinet.",
           "status": "historique",
-          "sources": ["csi-r211-11", "csi-r211-21", "landot-sommations"]
+          "sources": [
+            "csi-r211-11",
+            "csi-r211-21",
+            "landot-sommations"
+          ]
         },
         {
           "text": "Le schéma national du maintien de l'ordre publié en septembre 2020 a été partiellement annulé en juin 2021, puis remplacé par une nouvelle version le 16 décembre 2021.",
           "status": "historique",
-          "sources": ["ce-444849", "snmo", "amnesty-snmo"]
+          "sources": [
+            "ce-444849",
+            "snmo",
+            "amnesty-snmo"
+          ]
         }
       ]
     },
@@ -292,33 +436,56 @@
         {
           "text": "La loi n° 2026-798 du 18 août 2026 (« réponses immédiates aux phénomènes troublant l'ordre public ») vise surtout les rassemblements festifs non déclarés, les rodéos motorisés, les produits pyrotechniques et le protoxyde d'azote ; elle ne modifie pas le régime général des manifestations revendicatives.",
           "status": "reforme",
-          "sources": ["loi-2026-798", "cc-2026-915"]
+          "sources": [
+            "loi-2026-798",
+            "cc-2026-915"
+          ]
+        },
+        {
+          "text": "La recodification du code de procédure pénale, applicable au 1er janvier 2029, reprend les fouilles sur réquisition aux abords des manifestations dans un nouvel article L. 3223-9 ; l'article 78-2-5 actuel reste applicable jusque-là.",
+          "status": "reforme",
+          "sources": [
+            "cpp-78-2-5",
+            "cpp-l3223-9"
+          ],
+          "uncertain": "Selon la base LEGI au 24 octobre 2026, le nouvel article entre en vigueur le 1er janvier 2029 et l'article 78-2-5 n'y figure plus parmi les versions en vigueur sans limite de durée ; la date peut être modifiée par la loi."
         },
         {
           "text": "La proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l'ordre a été adoptée par l'Assemblée nationale le 7 juillet 2026 (313 voix pour, 199 contre), après avoir été rejetée en commission, puis transmise au Sénat.",
           "status": "reforme",
-          "sources": ["ppl-legitime-defense", "an-scrutin-7987"],
+          "sources": [
+            "ppl-legitime-defense",
+            "an-scrutin-7987"
+          ],
           "uncertain": "Au 21 juillet 2026, le dossier du Sénat n'indiquait ni rapporteur ni date d'examen ; vérifier l'état actuel sur le site du Sénat."
         },
         {
           "text": "En 2018, le Défenseur des droits a recommandé de retirer les lanceurs de balles de défense de la dotation des forces chargées du maintien de l'ordre, de renforcer le dialogue avec les manifestants et d'étudier la désescalade.",
           "status": "analyse",
-          "sources": ["ddd-2018"]
+          "sources": [
+            "ddd-2018"
+          ]
         },
         {
           "text": "La commission d'enquête de l'Assemblée nationale sur le maintien de l'ordre (rapport n° 3786, janvier 2021) a jugé inopportune la réintroduction d'une interdiction administrative de manifester et préconisé de renforcer la formation des unités.",
           "status": "analyse",
-          "sources": ["an-rapport-3786"]
+          "sources": [
+            "an-rapport-3786"
+          ]
         },
         {
           "text": "Pour les politistes Olivier Fillieule et Fabien Jobard, le maintien de l'ordre français s'est éloigné du modèle de pacification de l'après-1968, au profit d'une approche plus militarisée qui, selon eux, dissuade de manifester.",
           "status": "doctrine",
-          "sources": ["fillieule-jobard"]
+          "sources": [
+            "fillieule-jobard"
+          ]
         },
         {
           "text": "Les organisations de défense des droits estiment que la doctrine reste trop répressive ; Amnesty International France a qualifié le schéma révisé de 2021 d'« occasion manquée » et plaide pour la désescalade pratiquée dans d'autres pays européens.",
           "status": "debat",
-          "sources": ["amnesty-snmo"]
+          "sources": [
+            "amnesty-snmo"
+          ]
         }
       ]
     }
@@ -326,38 +493,217 @@
   "comparisons": [
     {
       "title": "Manifestation, attroupement, réunion publique",
-      "columns": ["Manifestation", "Attroupement", "Réunion publique"],
-      "rows": [
-        { "label": "Définition", "cells": ["Cortège, défilé ou rassemblement sur la voie publique", "Rassemblement sur la voie ou dans un lieu public susceptible de troubler l'ordre public", "Réunion publique au sens de la loi du 30 juin 1881"] },
-        { "label": "Régime", "cells": ["Déclaration préalable (3 à 15 jours francs)", "Aucun : situation de fait", "Loi du 30 juin 1881"] },
-        { "label": "Pouvoir de l'autorité", "cells": ["Interdiction par arrêté si risque de trouble", "Dispersion par la force après deux sommations", "—"] },
-        { "label": "Sanction principale", "cells": ["Organisateur : 6 mois et 7 500 € (non déclarée ou interdite) ; participant à une manifestation interdite : contravention", "Maintien après sommations : 1 an et 15 000 €", "—"] }
+      "columns": [
+        "Manifestation",
+        "Attroupement",
+        "Réunion publique"
       ],
-      "sources": ["csi-l211-1", "csi-l211-2", "csi-l211-4", "penal-431-3", "csi-l211-9", "penal-431-9", "penal-r644-4", "penal-431-4"]
+      "rows": [
+        {
+          "label": "Définition",
+          "cells": [
+            "Cortège, défilé ou rassemblement sur la voie publique",
+            "Rassemblement sur la voie ou dans un lieu public susceptible de troubler l'ordre public",
+            "Réunion publique au sens de la loi du 30 juin 1881"
+          ]
+        },
+        {
+          "label": "Régime",
+          "cells": [
+            "Déclaration préalable (3 à 15 jours francs)",
+            "Aucun : situation de fait",
+            "Loi du 30 juin 1881"
+          ]
+        },
+        {
+          "label": "Pouvoir de l'autorité",
+          "cells": [
+            "Interdiction par arrêté si risque de trouble",
+            "Dispersion par la force après deux sommations",
+            "—"
+          ]
+        },
+        {
+          "label": "Sanction principale",
+          "cells": [
+            "Organisateur : 6 mois et 7 500 € (non déclarée ou interdite) ; participant à une manifestation interdite : contravention",
+            "Maintien après sommations : 1 an et 15 000 €",
+            "—"
+          ]
+        }
+      ],
+      "sources": [
+        "csi-l211-1",
+        "csi-l211-2",
+        "csi-l211-4",
+        "penal-431-3",
+        "csi-l211-9",
+        "penal-431-9",
+        "penal-r644-4",
+        "penal-431-4"
+      ]
     }
   ],
   "timeline": [
-    { "date": "26 août 1789", "event": "Déclaration des droits de l'homme et du citoyen : liberté d'opinion (art. 10) et force publique (art. 12).", "status": "vigueur", "sources": ["ddhc"] },
-    { "date": "19 mai 1933", "event": "Arrêt Benjamin : contrôle de proportionnalité des mesures de police.", "status": "jurisprudence", "sources": ["ce-benjamin"] },
-    { "date": "21 juin 1988", "event": "CEDH, Plattform « Ärzte für das Leben » c. Autriche : obligation positive de protéger les manifestations licites.", "status": "jurisprudence", "sources": ["cedh-plattform"] },
-    { "date": "26 avril 1991", "event": "CEDH, Ezelin c. France : violation de la liberté de réunion pacifique.", "status": "jurisprudence", "sources": ["cedh-ezelin"] },
-    { "date": "18 janvier 1995", "event": "Conseil constitutionnel, n° 94-352 DC : droit d'expression collective des idées et des opinions.", "status": "jurisprudence", "sources": ["cc-94-352"] },
-    { "date": "1er mai 2012", "event": "Entrée en vigueur de la partie législative du code de la sécurité intérieure, qui regroupe le régime des manifestations et attroupements.", "status": "historique", "sources": ["csi-l211-1"] },
-    { "date": "2 mars 2017", "event": "Entrée en vigueur du cadre commun d'usage des armes par policiers et gendarmes (art. L. 435-1 du code de la sécurité intérieure).", "status": "vigueur", "sources": ["csi-l435-1"] },
-    { "date": "10 janvier 2018", "event": "Le Défenseur des droits remet son rapport sur le maintien de l'ordre au président de l'Assemblée nationale.", "status": "analyse", "sources": ["ddd-2018"] },
-    { "date": "4 avril 2019", "event": "Censure de l'interdiction administrative individuelle de manifester (n° 2019-780 DC).", "status": "jurisprudence", "sources": ["cc-2019-780"] },
-    { "date": "12 avril 2019", "event": "Entrée en vigueur du délit de dissimulation du visage en manifestation et des fouilles sur réquisition.", "status": "vigueur", "sources": ["penal-431-9-1", "cpp-78-2-5"] },
-    { "date": "20 janvier 2021", "event": "Rapport n° 3786 de la commission d'enquête de l'Assemblée nationale sur le maintien de l'ordre.", "status": "analyse", "sources": ["an-rapport-3786"] },
-    { "date": "8 mai 2021", "event": "Nouvelles formules de sommation et élargissement des autorités pouvant décider de l'emploi de la force.", "status": "vigueur", "sources": ["csi-r211-11", "csi-r211-21"] },
-    { "date": "20 mai 2021", "event": "Censure du délit de provocation à l'identification des forces de l'ordre (n° 2021-817 DC).", "status": "jurisprudence", "sources": ["cc-2021-817"] },
-    { "date": "10 juin 2021", "event": "Annulation partielle du schéma national du maintien de l'ordre par le Conseil d'État.", "status": "jurisprudence", "sources": ["ce-444849"] },
-    { "date": "16 décembre 2021", "event": "Publication du schéma national du maintien de l'ordre révisé.", "status": "historique", "sources": ["snmo", "amnesty-snmo"] },
-    { "date": "7 juillet 2026", "event": "L'Assemblée nationale adopte la proposition de loi sur la présomption de légitime défense des forces de l'ordre.", "status": "reforme", "sources": ["an-scrutin-7987", "ppl-legitime-defense"] },
-    { "date": "14 août 2026", "event": "Décision n° 2026-915 DC sur la loi relative aux phénomènes troublant l'ordre public.", "status": "jurisprudence", "sources": ["cc-2026-915"] },
-    { "date": "18 août 2026", "event": "Promulgation de la loi n° 2026-798.", "status": "reforme", "sources": ["loi-2026-798"] }
+    {
+      "date": "26 août 1789",
+      "event": "Déclaration des droits de l'homme et du citoyen : liberté d'opinion (art. 10) et force publique (art. 12).",
+      "status": "vigueur",
+      "sources": [
+        "ddhc"
+      ]
+    },
+    {
+      "date": "19 mai 1933",
+      "event": "Arrêt Benjamin : contrôle de proportionnalité des mesures de police.",
+      "status": "jurisprudence",
+      "sources": [
+        "ce-benjamin"
+      ]
+    },
+    {
+      "date": "21 juin 1988",
+      "event": "CEDH, Plattform « Ärzte für das Leben » c. Autriche : obligation positive de protéger les manifestations licites.",
+      "status": "jurisprudence",
+      "sources": [
+        "cedh-plattform"
+      ]
+    },
+    {
+      "date": "26 avril 1991",
+      "event": "CEDH, Ezelin c. France : violation de la liberté de réunion pacifique.",
+      "status": "jurisprudence",
+      "sources": [
+        "cedh-ezelin"
+      ]
+    },
+    {
+      "date": "18 janvier 1995",
+      "event": "Conseil constitutionnel, n° 94-352 DC : droit d'expression collective des idées et des opinions.",
+      "status": "jurisprudence",
+      "sources": [
+        "cc-94-352"
+      ]
+    },
+    {
+      "date": "1er mai 2012",
+      "event": "Entrée en vigueur de la partie législative du code de la sécurité intérieure, qui regroupe le régime des manifestations et attroupements.",
+      "status": "historique",
+      "sources": [
+        "csi-l211-1"
+      ]
+    },
+    {
+      "date": "2 mars 2017",
+      "event": "Entrée en vigueur du cadre commun d'usage des armes par policiers et gendarmes (art. L. 435-1 du code de la sécurité intérieure).",
+      "status": "vigueur",
+      "sources": [
+        "csi-l435-1"
+      ]
+    },
+    {
+      "date": "10 janvier 2018",
+      "event": "Le Défenseur des droits remet son rapport sur le maintien de l'ordre au président de l'Assemblée nationale.",
+      "status": "analyse",
+      "sources": [
+        "ddd-2018"
+      ]
+    },
+    {
+      "date": "4 avril 2019",
+      "event": "Censure de l'interdiction administrative individuelle de manifester (n° 2019-780 DC).",
+      "status": "jurisprudence",
+      "sources": [
+        "cc-2019-780"
+      ]
+    },
+    {
+      "date": "12 avril 2019",
+      "event": "Entrée en vigueur du délit de dissimulation du visage en manifestation et des fouilles sur réquisition.",
+      "status": "vigueur",
+      "sources": [
+        "penal-431-9-1",
+        "cpp-78-2-5"
+      ]
+    },
+    {
+      "date": "20 janvier 2021",
+      "event": "Rapport n° 3786 de la commission d'enquête de l'Assemblée nationale sur le maintien de l'ordre.",
+      "status": "analyse",
+      "sources": [
+        "an-rapport-3786"
+      ]
+    },
+    {
+      "date": "8 mai 2021",
+      "event": "Nouvelles formules de sommation et élargissement des autorités pouvant décider de l'emploi de la force.",
+      "status": "vigueur",
+      "sources": [
+        "csi-r211-11",
+        "csi-r211-21"
+      ]
+    },
+    {
+      "date": "20 mai 2021",
+      "event": "Censure du délit de provocation à l'identification des forces de l'ordre (n° 2021-817 DC).",
+      "status": "jurisprudence",
+      "sources": [
+        "cc-2021-817"
+      ]
+    },
+    {
+      "date": "10 juin 2021",
+      "event": "Annulation partielle du schéma national du maintien de l'ordre par le Conseil d'État.",
+      "status": "jurisprudence",
+      "sources": [
+        "ce-444849"
+      ]
+    },
+    {
+      "date": "16 décembre 2021",
+      "event": "Publication du schéma national du maintien de l'ordre révisé.",
+      "status": "historique",
+      "sources": [
+        "snmo",
+        "amnesty-snmo"
+      ]
+    },
+    {
+      "date": "7 juillet 2026",
+      "event": "L'Assemblée nationale adopte la proposition de loi sur la présomption de légitime défense des forces de l'ordre.",
+      "status": "reforme",
+      "sources": [
+        "an-scrutin-7987",
+        "ppl-legitime-defense"
+      ]
+    },
+    {
+      "date": "14 août 2026",
+      "event": "Décision n° 2026-915 DC sur la loi relative aux phénomènes troublant l'ordre public.",
+      "status": "jurisprudence",
+      "sources": [
+        "cc-2026-915"
+      ]
+    },
+    {
+      "date": "18 août 2026",
+      "event": "Promulgation de la loi n° 2026-798.",
+      "status": "reforme",
+      "sources": [
+        "loi-2026-798"
+      ]
+    },
+    {
+      "date": "1er janvier 2029",
+      "event": "Entrée en vigueur prévue du code de procédure pénale recodifié (fouilles aux abords des manifestations : art. L. 3223-9).",
+      "status": "reforme",
+      "sources": [
+        "cpp-l3223-9"
+      ]
+    }
   ],
   "limits": [
-    "Les articles de code sont cités d'après l'open data officiel de Légifrance (base LEGI de la DILA) ; seule la version affichée sur Légifrance au jour de la consultation fait foi.",
+    "Les articles de code sont cités d'après l'open data officiel de Légifrance (base LEGI de la DILA, mise à jour du 24 octobre 2026) ; seule la version affichée sur Légifrance au jour de la consultation fait foi.",
     "Le dossier couvre le régime général des manifestations et attroupements. Les régimes d'exception (état d'urgence, périmètres de protection antiterroristes, événements sportifs) ne sont pas détaillés.",
     "La doctrine citée est volontairement limitée à des travaux accessibles ; les commentaires des revues juridiques payantes ne sont pas repris.",
     "L'état de la proposition de loi sur la présomption de légitime défense peut avoir évolué depuis la dernière mise à jour du dossier du Sénat consultée (21 juillet 2026).",
@@ -365,53 +711,452 @@
   ],
   "related": [],
   "sources": [
-    { "id": "ddhc", "title": "Déclaration des droits de l'homme et du citoyen de 1789", "issuer": "Conseil constitutionnel", "date": "1789-08-26", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789", "type": "constitution", "primary": true },
-    { "id": "csi-l111-1", "title": "Code de la sécurité intérieure, article L. 111-1", "issuer": "Légifrance", "date": "2012-05-01", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025504921", "type": "code", "primary": true, "note": "Version en vigueur depuis le 1er mai 2012." },
-    { "id": "csi-l211-1", "title": "Code de la sécurité intérieure, article L. 211-1", "issuer": "Légifrance", "date": "2012-05-01", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025505133", "type": "code", "primary": true, "note": "Version en vigueur depuis le 1er mai 2012." },
-    { "id": "csi-l211-2", "title": "Code de la sécurité intérieure, article L. 211-2", "issuer": "Légifrance", "date": "2019-04-12", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382528", "type": "code", "primary": true, "note": "Version en vigueur depuis le 12 avril 2019." },
-    { "id": "csi-l211-3", "title": "Code de la sécurité intérieure, article L. 211-3", "issuer": "Légifrance", "date": "2012-05-01", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025505137", "type": "code", "primary": true },
-    { "id": "csi-l211-4", "title": "Code de la sécurité intérieure, article L. 211-4", "issuer": "Légifrance", "date": "2012-05-01", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025505140", "type": "code", "primary": true },
-    { "id": "csi-l211-9", "title": "Code de la sécurité intérieure, article L. 211-9", "issuer": "Légifrance", "date": "2012-05-01", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025505155", "type": "code", "primary": true },
-    { "id": "csi-l211-10", "title": "Code de la sécurité intérieure, article L. 211-10", "issuer": "Légifrance", "date": "2019-04-12", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382940", "type": "code", "primary": true },
-    { "id": "csi-r211-11", "title": "Code de la sécurité intérieure, article R. 211-11 (sommations)", "issuer": "Légifrance", "date": "2021-05-08", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043483861", "type": "code", "primary": true, "note": "Version issue du décret n° 2021-556 du 5 mai 2021." },
-    { "id": "csi-r211-12", "title": "Code de la sécurité intérieure, article R. 211-12 (insignes)", "issuer": "Légifrance", "date": "2021-05-08", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043483867", "type": "code", "primary": true },
-    { "id": "csi-r211-13", "title": "Code de la sécurité intérieure, article R. 211-13 (nécessité et proportionnalité)", "issuer": "Légifrance", "date": "2014-01-01", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028285055", "type": "code", "primary": true },
-    { "id": "csi-r211-14", "title": "Code de la sécurité intérieure, article R. 211-14", "issuer": "Légifrance", "date": "2014-01-01", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028285057", "type": "code", "primary": true },
-    { "id": "csi-r211-16", "title": "Code de la sécurité intérieure, article R. 211-16", "issuer": "Légifrance", "date": "2014-12-01", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029669311", "type": "code", "primary": true },
-    { "id": "csi-d211-17", "title": "Code de la sécurité intérieure, article D. 211-17 (armes autorisées)", "issuer": "Légifrance", "date": "2021-10-18", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044219411", "type": "code", "primary": true },
-    { "id": "csi-r211-21", "title": "Code de la sécurité intérieure, article R. 211-21 (autorité civile présente)", "issuer": "Légifrance", "date": "2021-05-08", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043483872", "type": "code", "primary": true },
-    { "id": "csi-l435-1", "title": "Code de la sécurité intérieure, article L. 435-1 (usage des armes)", "issuer": "Légifrance", "date": "2017-03-02", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034107970", "type": "code", "primary": true },
-    { "id": "penal-431-3", "title": "Code pénal, article 431-3 (attroupement)", "issuer": "Légifrance", "date": "2012-05-01", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025543347", "type": "code", "primary": true },
-    { "id": "penal-431-4", "title": "Code pénal, article 431-4", "issuer": "Légifrance", "date": "2010-03-04", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021926085", "type": "code", "primary": true },
-    { "id": "penal-431-5", "title": "Code pénal, article 431-5", "issuer": "Légifrance", "date": "2010-03-04", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021926083", "type": "code", "primary": true },
-    { "id": "penal-431-9", "title": "Code pénal, article 431-9 (organisation illicite)", "issuer": "Légifrance", "date": "2002-01-01", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418472", "type": "code", "primary": true },
-    { "id": "penal-431-9-1", "title": "Code pénal, article 431-9-1 (dissimulation du visage)", "issuer": "Légifrance", "date": "2019-04-12", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382669", "type": "code", "primary": true },
-    { "id": "penal-431-10", "title": "Code pénal, article 431-10 (port d'arme en manifestation)", "issuer": "Légifrance", "date": "2002-01-01", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418474", "type": "code", "primary": true },
-    { "id": "penal-r644-4", "title": "Code pénal, article R. 644-4 (participation à une manifestation interdite)", "issuer": "Légifrance", "date": "2019-03-22", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038253024", "type": "code", "primary": true },
-    { "id": "cgct-l2212-1", "title": "Code général des collectivités territoriales, article L. 2212-1", "issuer": "Légifrance", "date": "1996-02-24", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006390149", "type": "code", "primary": true },
-    { "id": "cgct-l2212-2", "title": "Code général des collectivités territoriales, article L. 2212-2 (objet de la police municipale)", "issuer": "Légifrance", "date": "2014-12-22", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029946370", "type": "code", "primary": true },
-    { "id": "cgct-l2214-4", "title": "Code général des collectivités territoriales, article L. 2214-4 (communes à police d'État)", "issuer": "Légifrance", "date": "2007-03-07", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006390224", "type": "code", "primary": true },
-    { "id": "cgct-l2215-1", "title": "Code général des collectivités territoriales, article L. 2215-1 (pouvoirs du préfet)", "issuer": "Légifrance", "date": "2007-03-07", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006390227", "type": "code", "primary": true },
-    { "id": "cgct-l2512-13", "title": "Code général des collectivités territoriales, article L. 2512-13 (préfet de police de Paris)", "issuer": "Légifrance", "date": "2021-07-01", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041587012", "type": "code", "primary": true },
-    { "id": "cpp-78-2-5", "title": "Code de procédure pénale, article 78-2-5 (fouilles aux abords des manifestations)", "issuer": "Légifrance", "date": "2019-04-12", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382550", "type": "code", "primary": true },
-    { "id": "defense-l1321-1", "title": "Code de la défense, article L. 1321-1 (réquisition, moyens militaires de la gendarmerie)", "issuer": "Légifrance", "date": "2012-05-01", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025629669", "type": "code", "primary": true },
-    { "id": "ce-benjamin", "title": "Conseil d'État, 19 mai 1933, Benjamin", "issuer": "Conseil d'État", "date": "1933-05-19", "url": "https://conseil-etat.fr/decisions-de-justice/jurisprudence/les-grandes-decisions-depuis-1873/conseil-d-etat-19-mai-1933-benjamin", "type": "decision", "primary": true },
-    { "id": "cc-94-352", "title": "Décision n° 94-352 DC du 18 janvier 1995, Loi d'orientation et de programmation relative à la sécurité", "issuer": "Conseil constitutionnel", "date": "1995-01-18", "url": "https://www.conseil-constitutionnel.fr/decision/1995/94352DC.htm", "type": "decision", "primary": true },
-    { "id": "cedh-plattform", "title": "CEDH, Plattform « Ärzte für das Leben » c. Autriche, 21 juin 1988, n° 10126/82", "issuer": "Cour européenne des droits de l'homme", "date": "1988-06-21", "url": "https://hudoc.echr.coe.int/eng?i=001-57558", "type": "decision", "primary": true },
-    { "id": "cedh-ezelin", "title": "CEDH, Ezelin c. France, 26 avril 1991, n° 11800/85", "issuer": "Cour européenne des droits de l'homme", "date": "1991-04-26", "url": "https://hudoc.echr.coe.int/eng?i=001-57675", "type": "decision", "primary": true },
-    { "id": "cc-2019-780", "title": "Décision n° 2019-780 DC du 4 avril 2019, Loi visant à renforcer et garantir le maintien de l'ordre public lors des manifestations", "issuer": "Conseil constitutionnel", "date": "2019-04-04", "url": "https://www.conseil-constitutionnel.fr/decision/2019/2019780DC.htm", "type": "decision", "primary": true },
-    { "id": "ce-444849", "title": "Conseil d'État, 10 juin 2021, n° 444849 (schéma national du maintien de l'ordre), publié au recueil Lebon", "issuer": "Conseil d'État", "date": "2021-06-10", "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2021-06-10/444849", "type": "decision", "primary": true },
-    { "id": "cc-2021-817", "title": "Décision n° 2021-817 DC du 20 mai 2021, Loi pour une sécurité globale préservant les libertés", "issuer": "Conseil constitutionnel", "date": "2021-05-20", "url": "https://www.conseil-constitutionnel.fr/decision/2021/2021817DC.htm", "type": "decision", "primary": true },
-    { "id": "cc-2026-915", "title": "Décision n° 2026-915 DC du 14 août 2026, Loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public", "issuer": "Conseil constitutionnel", "date": "2026-08-14", "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026915DC.htm", "type": "decision", "primary": true },
-    { "id": "loi-2026-798", "title": "Loi n° 2026-798 du 18 août 2026 — « La loi en clair » et dossier législatif", "issuer": "Sénat", "date": "2026-08-18", "url": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/projet-de-loi-visant-a-offrir-des-reponses-immediates-aux-phenomenes-troublant-lordre-public-la-securite-et-la-tranquillite-de-nos-concitoyens.html", "type": "institution", "primary": true },
-    { "id": "ppl-legitime-defense", "title": "Proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l'ordre — dossier législatif", "issuer": "Sénat", "date": "2026-07-21", "url": "https://www.senat.fr/dossier-legislatif/ppl25-866.html", "type": "institution", "primary": true },
-    { "id": "an-scrutin-7987", "title": "Scrutin n° 7987 du 7 juillet 2026 sur l'ensemble de la proposition de loi (première lecture)", "issuer": "Assemblée nationale", "date": "2026-07-07", "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/7987", "type": "institution", "primary": true },
-    { "id": "snmo", "title": "Schéma national du maintien de l'ordre", "issuer": "Ministère de l'Intérieur", "date": "2021-12-16", "url": "https://www.interieur.gouv.fr/documentation/ressources/schema-national-du-maintien-de-lordre.html", "type": "institution", "primary": true },
-    { "id": "ce-bilan-2021", "title": "Bilan d'activité 2021 — « Manifester librement »", "issuer": "Conseil d'État", "date": "2022", "url": "https://conseil-etat.fr/publications-colloques/rapports-d-activite/bilan-d-activite-2021/manifester-librement", "type": "institution", "primary": false },
-    { "id": "an-rapport-3786", "title": "Rapport n° 3786 de la commission d'enquête relative à l'état des lieux, la déontologie, les pratiques et les doctrines de maintien de l'ordre (président : Jean-Michel Fauvergue ; rapporteur : Jérôme Lambert)", "issuer": "Assemblée nationale", "date": "2021-01-20", "url": "https://www.assemblee-nationale.fr/dyn/15/rapports/ceordre/l15b3786_rapport-enquete.pdf", "type": "rapport", "primary": true },
-    { "id": "ddd-2018", "title": "Le Défenseur des droits remet son rapport sur le maintien de l'ordre au président de l'Assemblée nationale", "issuer": "Réseau européen des médiateurs (relais du Défenseur des droits)", "date": "2018-01-10", "url": "https://eno.ombudsman.europa.eu/home/news/archives-2018/maincontent/le-defenseur-des-droits-remet-so.html", "type": "institution", "primary": false },
-    { "id": "landot-sommations", "title": "Modernisation et clarification des sommations à effectuer avant de disperser un attroupement (décret n° 2021-556 du 5 mai 2021)", "issuer": "Landot & associés, blog juridique", "date": "2021-05-07", "url": "https://blog.landot-avocats.net/2021/05/07/modernisation-et-clarification-des-sommations-a-effectuer-avant-de-disperser-un-attroupement/", "type": "doctrine", "primary": false },
-    { "id": "fillieule-jobard", "title": "Olivier Fillieule et Fabien Jobard, Politiques du désordre. La police des manifestations en France, Seuil", "issuer": "Seuil", "date": "2020-11-05", "url": "https://www.mollat.com/livres/2445184/olivier-fillieule-politiques-du-desordre-la-police-des-manifestations-en-france", "type": "doctrine", "primary": false },
-    { "id": "amnesty-snmo", "title": "La nouvelle version du SNMO, une occasion manquée", "issuer": "Amnesty International France", "date": "2021-12-15", "url": "https://www.amnesty.fr/presse/la-nouvelle-version-du-snmo-une-occasion-manquee-qui", "type": "presse", "primary": false }
+    {
+      "id": "ddhc",
+      "title": "Déclaration des droits de l'homme et du citoyen de 1789",
+      "issuer": "Conseil constitutionnel",
+      "date": "1789-08-26",
+      "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789",
+      "type": "constitution",
+      "primary": true
+    },
+    {
+      "id": "csi-l111-1",
+      "title": "Code de la sécurité intérieure, article L. 111-1",
+      "issuer": "Légifrance",
+      "date": "2012-05-01",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025504921",
+      "type": "code",
+      "primary": true,
+      "note": "Version en vigueur depuis le 1er mai 2012."
+    },
+    {
+      "id": "csi-l211-1",
+      "title": "Code de la sécurité intérieure, article L. 211-1",
+      "issuer": "Légifrance",
+      "date": "2012-05-01",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025505133",
+      "type": "code",
+      "primary": true,
+      "note": "Version en vigueur depuis le 1er mai 2012."
+    },
+    {
+      "id": "csi-l211-2",
+      "title": "Code de la sécurité intérieure, article L. 211-2",
+      "issuer": "Légifrance",
+      "date": "2019-04-12",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382528",
+      "type": "code",
+      "primary": true,
+      "note": "Version en vigueur depuis le 12 avril 2019."
+    },
+    {
+      "id": "csi-l211-3",
+      "title": "Code de la sécurité intérieure, article L. 211-3",
+      "issuer": "Légifrance",
+      "date": "2012-05-01",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025505137",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "csi-l211-4",
+      "title": "Code de la sécurité intérieure, article L. 211-4",
+      "issuer": "Légifrance",
+      "date": "2012-05-01",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025505140",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "csi-l211-9",
+      "title": "Code de la sécurité intérieure, article L. 211-9",
+      "issuer": "Légifrance",
+      "date": "2012-05-01",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025505155",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "csi-l211-10",
+      "title": "Code de la sécurité intérieure, article L. 211-10",
+      "issuer": "Légifrance",
+      "date": "2019-04-12",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382940",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "csi-r211-11",
+      "title": "Code de la sécurité intérieure, article R. 211-11 (sommations)",
+      "issuer": "Légifrance",
+      "date": "2021-05-08",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043483861",
+      "type": "code",
+      "primary": true,
+      "note": "Version issue du décret n° 2021-556 du 5 mai 2021."
+    },
+    {
+      "id": "csi-r211-12",
+      "title": "Code de la sécurité intérieure, article R. 211-12 (insignes)",
+      "issuer": "Légifrance",
+      "date": "2021-05-08",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043483867",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "csi-r211-13",
+      "title": "Code de la sécurité intérieure, article R. 211-13 (nécessité et proportionnalité)",
+      "issuer": "Légifrance",
+      "date": "2014-01-01",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028285055",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "csi-r211-14",
+      "title": "Code de la sécurité intérieure, article R. 211-14",
+      "issuer": "Légifrance",
+      "date": "2014-01-01",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028285057",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "csi-r211-16",
+      "title": "Code de la sécurité intérieure, article R. 211-16",
+      "issuer": "Légifrance",
+      "date": "2014-12-01",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029669311",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "csi-d211-17",
+      "title": "Code de la sécurité intérieure, article D. 211-17 (armes autorisées)",
+      "issuer": "Légifrance",
+      "date": "2021-10-18",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044219411",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "csi-r211-21",
+      "title": "Code de la sécurité intérieure, article R. 211-21 (autorité civile présente)",
+      "issuer": "Légifrance",
+      "date": "2021-05-08",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043483872",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "csi-l435-1",
+      "title": "Code de la sécurité intérieure, article L. 435-1 (usage des armes)",
+      "issuer": "Légifrance",
+      "date": "2017-03-02",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034107970",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "penal-431-3",
+      "title": "Code pénal, article 431-3 (attroupement)",
+      "issuer": "Légifrance",
+      "date": "2012-05-01",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025543347",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "penal-431-4",
+      "title": "Code pénal, article 431-4",
+      "issuer": "Légifrance",
+      "date": "2010-03-04",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021926085",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "penal-431-5",
+      "title": "Code pénal, article 431-5",
+      "issuer": "Légifrance",
+      "date": "2010-03-04",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021926083",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "penal-431-9",
+      "title": "Code pénal, article 431-9 (organisation illicite)",
+      "issuer": "Légifrance",
+      "date": "2002-01-01",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418472",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "penal-431-9-1",
+      "title": "Code pénal, article 431-9-1 (dissimulation du visage)",
+      "issuer": "Légifrance",
+      "date": "2019-04-12",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382669",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "penal-431-10",
+      "title": "Code pénal, article 431-10 (port d'arme en manifestation)",
+      "issuer": "Légifrance",
+      "date": "2002-01-01",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418474",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "penal-r644-4",
+      "title": "Code pénal, article R. 644-4 (participation à une manifestation interdite)",
+      "issuer": "Légifrance",
+      "date": "2019-03-22",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038253024",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "cgct-l2212-1",
+      "title": "Code général des collectivités territoriales, article L. 2212-1",
+      "issuer": "Légifrance",
+      "date": "1996-02-24",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006390149",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "cgct-l2212-2",
+      "title": "Code général des collectivités territoriales, article L. 2212-2 (objet de la police municipale)",
+      "issuer": "Légifrance",
+      "date": "2014-12-22",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029946370",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "cgct-l2214-4",
+      "title": "Code général des collectivités territoriales, article L. 2214-4 (communes à police d'État)",
+      "issuer": "Légifrance",
+      "date": "2007-03-07",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006390224",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "cgct-l2215-1",
+      "title": "Code général des collectivités territoriales, article L. 2215-1 (pouvoirs du préfet)",
+      "issuer": "Légifrance",
+      "date": "2007-03-07",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006390227",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "cgct-l2512-13",
+      "title": "Code général des collectivités territoriales, article L. 2512-13 (préfet de police de Paris)",
+      "issuer": "Légifrance",
+      "date": "2021-07-01",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041587012",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "cpp-78-2-5",
+      "title": "Code de procédure pénale, article 78-2-5 (fouilles aux abords des manifestations)",
+      "issuer": "Légifrance",
+      "date": "2019-04-12",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382550",
+      "type": "code",
+      "primary": true,
+      "note": "Version en vigueur depuis le 12 avril 2019. La recodification du code de procédure pénale transfère cette règle à l'article L. 3223-9 à compter du 1er janvier 2029."
+    },
+    {
+      "id": "cpp-l3223-9",
+      "title": "Code de procédure pénale recodifié, article L. 3223-9 (applicable au 1er janvier 2029)",
+      "issuer": "Légifrance",
+      "date": "2029-01-01",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052678329",
+      "type": "code",
+      "primary": true,
+      "note": "Version à venir, publiée dans la base LEGI avec une entrée en vigueur différée."
+    },
+    {
+      "id": "defense-l1321-1",
+      "title": "Code de la défense, article L. 1321-1 (réquisition, moyens militaires de la gendarmerie)",
+      "issuer": "Légifrance",
+      "date": "2012-05-01",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025629669",
+      "type": "code",
+      "primary": true
+    },
+    {
+      "id": "ce-benjamin",
+      "title": "Conseil d'État, 19 mai 1933, Benjamin",
+      "issuer": "Conseil d'État",
+      "date": "1933-05-19",
+      "url": "https://conseil-etat.fr/decisions-de-justice/jurisprudence/les-grandes-decisions-depuis-1873/conseil-d-etat-19-mai-1933-benjamin",
+      "type": "decision",
+      "primary": true
+    },
+    {
+      "id": "cc-94-352",
+      "title": "Décision n° 94-352 DC du 18 janvier 1995, Loi d'orientation et de programmation relative à la sécurité",
+      "issuer": "Conseil constitutionnel",
+      "date": "1995-01-18",
+      "url": "https://www.conseil-constitutionnel.fr/decision/1995/94352DC.htm",
+      "type": "decision",
+      "primary": true
+    },
+    {
+      "id": "cedh-plattform",
+      "title": "CEDH, Plattform « Ärzte für das Leben » c. Autriche, 21 juin 1988, n° 10126/82",
+      "issuer": "Cour européenne des droits de l'homme",
+      "date": "1988-06-21",
+      "url": "https://hudoc.echr.coe.int/eng?i=001-57558",
+      "type": "decision",
+      "primary": true
+    },
+    {
+      "id": "cedh-ezelin",
+      "title": "CEDH, Ezelin c. France, 26 avril 1991, n° 11800/85",
+      "issuer": "Cour européenne des droits de l'homme",
+      "date": "1991-04-26",
+      "url": "https://hudoc.echr.coe.int/eng?i=001-57675",
+      "type": "decision",
+      "primary": true
+    },
+    {
+      "id": "cc-2019-780",
+      "title": "Décision n° 2019-780 DC du 4 avril 2019, Loi visant à renforcer et garantir le maintien de l'ordre public lors des manifestations",
+      "issuer": "Conseil constitutionnel",
+      "date": "2019-04-04",
+      "url": "https://www.conseil-constitutionnel.fr/decision/2019/2019780DC.htm",
+      "type": "decision",
+      "primary": true
+    },
+    {
+      "id": "ce-444849",
+      "title": "Conseil d'État, 10 juin 2021, n° 444849 (schéma national du maintien de l'ordre), publié au recueil Lebon",
+      "issuer": "Conseil d'État",
+      "date": "2021-06-10",
+      "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2021-06-10/444849",
+      "type": "decision",
+      "primary": true
+    },
+    {
+      "id": "cc-2021-817",
+      "title": "Décision n° 2021-817 DC du 20 mai 2021, Loi pour une sécurité globale préservant les libertés",
+      "issuer": "Conseil constitutionnel",
+      "date": "2021-05-20",
+      "url": "https://www.conseil-constitutionnel.fr/decision/2021/2021817DC.htm",
+      "type": "decision",
+      "primary": true
+    },
+    {
+      "id": "cc-2026-915",
+      "title": "Décision n° 2026-915 DC du 14 août 2026, Loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public",
+      "issuer": "Conseil constitutionnel",
+      "date": "2026-08-14",
+      "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026915DC.htm",
+      "type": "decision",
+      "primary": true
+    },
+    {
+      "id": "loi-2026-798",
+      "title": "Loi n° 2026-798 du 18 août 2026 — « La loi en clair » et dossier législatif",
+      "issuer": "Sénat",
+      "date": "2026-08-18",
+      "url": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/projet-de-loi-visant-a-offrir-des-reponses-immediates-aux-phenomenes-troublant-lordre-public-la-securite-et-la-tranquillite-de-nos-concitoyens.html",
+      "type": "institution",
+      "primary": true
+    },
+    {
+      "id": "ppl-legitime-defense",
+      "title": "Proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l'ordre — dossier législatif",
+      "issuer": "Sénat",
+      "date": "2026-07-21",
+      "url": "https://www.senat.fr/dossier-legislatif/ppl25-866.html",
+      "type": "institution",
+      "primary": true
+    },
+    {
+      "id": "an-scrutin-7987",
+      "title": "Scrutin n° 7987 du 7 juillet 2026 sur l'ensemble de la proposition de loi (première lecture)",
+      "issuer": "Assemblée nationale",
+      "date": "2026-07-07",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/7987",
+      "type": "institution",
+      "primary": true
+    },
+    {
+      "id": "snmo",
+      "title": "Schéma national du maintien de l'ordre",
+      "issuer": "Ministère de l'Intérieur",
+      "date": "2021-12-16",
+      "url": "https://www.interieur.gouv.fr/documentation/ressources/schema-national-du-maintien-de-lordre.html",
+      "type": "institution",
+      "primary": true
+    },
+    {
+      "id": "ce-bilan-2021",
+      "title": "Bilan d'activité 2021 — « Manifester librement »",
+      "issuer": "Conseil d'État",
+      "date": "2022",
+      "url": "https://conseil-etat.fr/publications-colloques/rapports-d-activite/bilan-d-activite-2021/manifester-librement",
+      "type": "institution",
+      "primary": false
+    },
+    {
+      "id": "an-rapport-3786",
+      "title": "Rapport n° 3786 de la commission d'enquête relative à l'état des lieux, la déontologie, les pratiques et les doctrines de maintien de l'ordre (président : Jean-Michel Fauvergue ; rapporteur : Jérôme Lambert)",
+      "issuer": "Assemblée nationale",
+      "date": "2021-01-20",
+      "url": "https://www.assemblee-nationale.fr/dyn/15/rapports/ceordre/l15b3786_rapport-enquete.pdf",
+      "type": "rapport",
+      "primary": true
+    },
+    {
+      "id": "ddd-2018",
+      "title": "Le Défenseur des droits remet son rapport sur le maintien de l'ordre au président de l'Assemblée nationale",
+      "issuer": "Réseau européen des médiateurs (relais du Défenseur des droits)",
+      "date": "2018-01-10",
+      "url": "https://eno.ombudsman.europa.eu/home/news/archives-2018/maincontent/le-defenseur-des-droits-remet-so.html",
+      "type": "institution",
+      "primary": false
+    },
+    {
+      "id": "landot-sommations",
+      "title": "Modernisation et clarification des sommations à effectuer avant de disperser un attroupement (décret n° 2021-556 du 5 mai 2021)",
+      "issuer": "Landot & associés, blog juridique",
+      "date": "2021-05-07",
+      "url": "https://blog.landot-avocats.net/2021/05/07/modernisation-et-clarification-des-sommations-a-effectuer-avant-de-disperser-un-attroupement/",
+      "type": "doctrine",
+      "primary": false
+    },
+    {
+      "id": "fillieule-jobard",
+      "title": "Olivier Fillieule et Fabien Jobard, Politiques du désordre. La police des manifestations en France, Seuil",
+      "issuer": "Seuil",
+      "date": "2020-11-05",
+      "url": "https://www.mollat.com/livres/2445184/olivier-fillieule-politiques-du-desordre-la-police-des-manifestations-en-france",
+      "type": "doctrine",
+      "primary": false
+    },
+    {
+      "id": "amnesty-snmo",
+      "title": "La nouvelle version du SNMO, une occasion manquée",
+      "issuer": "Amnesty International France",
+      "date": "2021-12-15",
+      "url": "https://www.amnesty.fr/presse/la-nouvelle-version-du-snmo-une-occasion-manquee-qui",
+      "type": "presse",
+      "primary": false
+    }
   ]
 }
