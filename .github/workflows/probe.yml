@@ -1,11 +1,19 @@
 name: Probe data sources
 on:
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: bash scripts/probe.sh
+      - run: bash scripts/probe.sh > /tmp/probe-output.txt 2>&1 || true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish output to probe-output branch
+        run: |
+          cd /tmp && mkdir out && cd out && git init -q -b probe-output
+          cp /tmp/probe-output.txt . && git add .
+          git -c user.name=bot -c user.email=bot@users.noreply.github.com commit -qm "probe output"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" probe-output
