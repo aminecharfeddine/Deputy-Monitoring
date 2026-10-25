@@ -10,6 +10,6 @@ jobs:
       - uses: actions/checkout@v4
       - run: bash scripts/probe.sh > /tmp/probe-output.txt 2>&1 || true
       - run: |
-          mkdir /tmp/out && cp /tmp/probe-output.txt /tmp/out/ && cd /tmp/out
+          mkdir /tmp/out && cp /tmp/probe-output.txt /tmp/out/ && (cp raw/* /tmp/out/ || true) && cd /tmp/out
           git init -q -b probe-output && git add . && git -c user.name=bot -c user.email=bot@users.noreply.github.com commit -qm out
           git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" probe-output
