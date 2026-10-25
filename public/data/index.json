@@ -1,0 +1,23 @@
+{
+  "an": {
+    "label": "Assemblée nationale",
+    "members": 574,
+    "votes": 310,
+    "generatedAt": "2026-10-25T10:28:42.014Z",
+    "lastVote": "2026-10-12"
+  },
+  "senat": {
+    "label": "Sénat",
+    "members": 348,
+    "votes": 240,
+    "generatedAt": "2026-10-25T10:29:42.317Z",
+    "lastVote": "2026-10-22"
+  },
+  "pe": {
+    "label": "Parlement européen",
+    "members": 720,
+    "votes": 646,
+    "generatedAt": "2026-10-25T10:30:00.175Z",
+    "lastVote": "2026-10-22"
+  }
+}

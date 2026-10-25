@@ -1,0 +1,18 @@
+10:28:37 --- an
+10:28:37 download https://data.assemblee-nationale.fr/static/openData/repository/17/amo/deputes_actifs_mandats_actifs_organes/AMO10_deputes_actifs_mandats_actifs_organes.json.zip
+10:28:38 download https://data.assemblee-nationale.fr/static/openData/repository/17/loi/scrutins/Scrutins.json.zip
+10:28:42 an: 574 élus, 310 scrutins, 704 Ko
+10:28:42 --- senat
+10:28:42 download https://data.senat.fr/data/senateurs/ODSEN_GENERAL.csv
+10:28:44 download https://data.senat.fr/data/senateurs/ODSEN_CUR_COMS.csv
+10:28:47 senat: 241 scrutins clés à récupérer
+10:29:42 senat: 348 élus, 240 scrutins, 329 Ko
+10:29:42 --- pe
+10:29:42 download https://github.com/HowTheyVote/data/releases/download/2026-10-24/members.csv.gz
+10:29:42 download https://github.com/HowTheyVote/data/releases/download/2026-10-24/group_memberships.csv.gz
+10:29:42 download https://github.com/HowTheyVote/data/releases/download/2026-10-24/national_parties.csv.gz
+10:29:42 download https://github.com/HowTheyVote/data/releases/download/2026-10-24/national_party_memberships.csv.gz
+10:29:42 download https://github.com/HowTheyVote/data/releases/download/2026-10-24/votes.csv.gz
+10:29:42 download https://github.com/HowTheyVote/data/releases/download/2026-10-24/oeil_subject_votes.csv.gz
+10:29:42 download https://github.com/HowTheyVote/data/releases/download/2026-10-24/member_votes.csv.gz
+10:30:00 pe: 720 élus, 646 scrutins, 1073 Ko
