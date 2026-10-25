@@ -5,6 +5,7 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - run: bash scripts/probe.sh > /tmp/probe-output.txt 2>&1 || true
