@@ -223,7 +223,7 @@ export function Hemicycle({
                   strokeWidth={active ? 2 : 0}
                   opacity={dim ? 0.13 : 1}
                   onMouseEnter={() => setHovered(m.id)}
-                  onClick={() => router.push(`/hemicycles/${chamber}/${m.id}`)}
+                  onClick={() => router.push(`/hemicycles/${chamber}/elu?id=${encodeURIComponent(m.id)}`)}
                 >
                   <title>{`${m.name} — ${groupById.get(m.group)?.short ?? ""}`}</title>
                 </circle>
@@ -310,7 +310,7 @@ export function Hemicycle({
                 {matches.map((m) => (
                   <li key={m.id}>
                     <Link
-                      href={`/hemicycles/${chamber}/${m.id}`}
+                      href={`/hemicycles/${chamber}/elu?id=${encodeURIComponent(m.id)}`}
                       onMouseEnter={() => setHovered(m.id)}
                       onFocus={() => setHovered(m.id)}
                       className="flex items-center gap-3 px-4 py-2 hover:bg-paper"
@@ -392,7 +392,7 @@ function MemberCard({
         </p>
       )}
       <Link
-        href={`/hemicycles/${chamber}/${member.id}`}
+        href={`/hemicycles/${chamber}/elu?id=${encodeURIComponent(member.id)}`}
         className="mt-4 inline-block rounded-lg bg-ink px-4 py-2 text-sm font-semibold text-paper hover:opacity-90"
       >
         Voir la fiche et les votes

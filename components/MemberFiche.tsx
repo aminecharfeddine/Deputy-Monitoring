@@ -1,28 +1,47 @@
-import type { Metadata } from "next";
+"use client";
+
 import Link from "next/link";
-import { notFound } from "next/navigation";
-import { CHAMBERS, isChamber, loadChamber } from "@/lib/data";
+import { useSearchParams } from "next/navigation";
+import { useEffect, useState } from "react";
 import { formatDate, plural } from "@/lib/format";
 import { Photo } from "@/components/Photo";
 import { TopicVotes, type TopicBlock, type VoteRow } from "@/components/TopicVotes";
-import type { Position } from "@/lib/types";
+import type { ChamberData, ChamberKey, Position } from "@/lib/types";
 
-export function generateStaticParams() {
-  return CHAMBERS.flatMap((c) => (loadChamber(c.key)?.members ?? []).map((m) => ({ chamber: c.key, id: m.id })));
-}
+/** Fiche d'un élu, calculée dans le navigateur à partir du fichier public de la chambre. */
+export function MemberFiche({ chamber, label }: { chamber: ChamberKey; label: string }) {
+  const id = useSearchParams().get("id") ?? "";
+  const [data, setData] = useState<ChamberData | null>(null);
+  const [failed, setFailed] = useState(false);
 
-export async function generateMetadata({ params }: { params: Promise<{ chamber: string; id: string }> }): Promise<Metadata> {
-  const { chamber, id } = await params;
-  const m = isChamber(chamber) ? loadChamber(chamber)?.members.find((x) => x.id === id) : null;
-  return { title: m ? `${m.name} — votes et positions` : "Fiche élu" };
-}
+  useEffect(() => {
+    fetch(`/data/${chamber}.json`)
+      .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
+      .then(setData)
+      .catch(() => setFailed(true));
+  }, [chamber]);
 
-export default async function MemberPage({ params }: { params: Promise<{ chamber: string; id: string }> }) {
-  const { chamber, id } = await params;
-  if (!isChamber(chamber)) notFound();
-  const data = loadChamber(chamber);
   const member = data?.members.find((m) => m.id === id);
-  if (!data || !member) notFound();
+
+  useEffect(() => {
+    if (member) document.title = `${member.name} — votes et positions · Deputy Monitoring`;
+  }, [member]);
+
+  if (failed || (data && !member)) {
+    return (
+      <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+        <p className="text-ink-soft">
+          {failed ? "Les données n'ont pas pu être chargées. Rechargez la page." : "Cet élu ne figure pas parmi les membres en exercice."}{" "}
+          <Link href={`/hemicycles/${chamber}`} className="underline underline-offset-4">
+            Retour à l&apos;hémicycle : {label}
+          </Link>
+        </p>
+      </div>
+    );
+  }
+  if (!data || !member) {
+    return <div className="mx-auto max-w-7xl px-4 py-16 text-ink-soft sm:px-6">Chargement de la fiche…</div>;
+  }
 
   const group = data.groups.find((g) => g.id === member.group);
   const pos = data.positions[member.id] ?? "";
