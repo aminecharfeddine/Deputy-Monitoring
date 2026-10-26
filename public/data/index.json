@@ -3,7 +3,7 @@
     "label": "Assemblée nationale",
     "members": 574,
     "votes": 310,
-    "generatedAt": "2026-10-25T10:28:42.014Z",
+    "generatedAt": "2026-10-26T10:09:12.381Z",
     "lastVote": "2026-10-12"
   },
   "senat": {
@@ -17,7 +17,7 @@
     "label": "Parlement européen",
     "members": 720,
     "votes": 646,
-    "generatedAt": "2026-10-25T10:30:00.175Z",
+    "generatedAt": "2026-10-26T10:09:50.361Z",
     "lastVote": "2026-10-22"
   }
 }
