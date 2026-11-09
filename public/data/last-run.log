@@ -1,18 +1,18 @@
-12:26:28 --- an
-12:26:28 download https://data.assemblee-nationale.fr/static/openData/repository/17/amo/deputes_actifs_mandats_actifs_organes/AMO10_deputes_actifs_mandats_actifs_organes.json.zip
-12:26:29 download https://data.assemblee-nationale.fr/static/openData/repository/17/loi/scrutins/Scrutins.json.zip
-12:27:20 an: 574 élus, 312 scrutins, 707 Ko
-12:27:20 --- senat
-12:27:20 download https://data.senat.fr/data/senateurs/ODSEN_GENERAL.csv
-12:27:22 download https://data.senat.fr/data/senateurs/ODSEN_CUR_COMS.csv
-12:27:25 senat: 243 scrutins clés à récupérer
-12:28:24 senat: 348 élus, 242 scrutins, 331 Ko
-12:28:24 --- pe
-12:28:24 download https://github.com/HowTheyVote/data/releases/download/2026-11-01/members.csv.gz
-12:28:24 download https://github.com/HowTheyVote/data/releases/download/2026-11-01/group_memberships.csv.gz
-12:28:24 download https://github.com/HowTheyVote/data/releases/download/2026-11-01/national_parties.csv.gz
-12:28:24 download https://github.com/HowTheyVote/data/releases/download/2026-11-01/national_party_memberships.csv.gz
-12:28:24 download https://github.com/HowTheyVote/data/releases/download/2026-11-01/votes.csv.gz
-12:28:24 download https://github.com/HowTheyVote/data/releases/download/2026-11-01/oeil_subject_votes.csv.gz
-12:28:24 download https://github.com/HowTheyVote/data/releases/download/2026-11-01/member_votes.csv.gz
-12:28:41 pe: 719 élus, 651 scrutins, 1080 Ko
+12:53:57 --- an
+12:53:57 download https://data.assemblee-nationale.fr/static/openData/repository/17/amo/deputes_actifs_mandats_actifs_organes/AMO10_deputes_actifs_mandats_actifs_organes.json.zip
+12:53:59 download https://data.assemblee-nationale.fr/static/openData/repository/17/loi/scrutins/Scrutins.json.zip
+12:54:02 an: 574 élus, 312 scrutins, 707 Ko
+12:54:02 --- senat
+12:54:02 download https://data.senat.fr/data/senateurs/ODSEN_GENERAL.csv
+12:54:05 download https://data.senat.fr/data/senateurs/ODSEN_CUR_COMS.csv
+12:54:09 senat: 247 scrutins clés à récupérer
+12:55:20 senat: 348 élus, 246 scrutins, 336 Ko
+12:55:20 --- pe
+12:55:21 download https://github.com/HowTheyVote/data/releases/download/2026-11-07/members.csv.gz
+12:55:21 download https://github.com/HowTheyVote/data/releases/download/2026-11-07/group_memberships.csv.gz
+12:55:21 download https://github.com/HowTheyVote/data/releases/download/2026-11-07/national_parties.csv.gz
+12:55:21 download https://github.com/HowTheyVote/data/releases/download/2026-11-07/national_party_memberships.csv.gz
+12:55:21 download https://github.com/HowTheyVote/data/releases/download/2026-11-07/votes.csv.gz
+12:55:21 download https://github.com/HowTheyVote/data/releases/download/2026-11-07/oeil_subject_votes.csv.gz
+12:55:21 download https://github.com/HowTheyVote/data/releases/download/2026-11-07/member_votes.csv.gz
+12:55:35 pe: 719 élus, 651 scrutins, 1080 Ko
