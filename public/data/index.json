@@ -2,22 +2,22 @@
   "an": {
     "label": "Assemblée nationale",
     "members": 574,
-    "votes": 312,
-    "generatedAt": "2026-11-09T12:54:02.982Z",
-    "lastVote": "2026-10-29"
+    "votes": 314,
+    "generatedAt": "2026-11-16T12:46:37.289Z",
+    "lastVote": "2026-11-12"
   },
   "senat": {
     "label": "Sénat",
     "members": 348,
-    "votes": 246,
-    "generatedAt": "2026-11-09T12:55:20.886Z",
-    "lastVote": "2026-11-05"
+    "votes": 248,
+    "generatedAt": "2026-11-16T12:47:58.557Z",
+    "lastVote": "2026-11-13"
   },
   "pe": {
     "label": "Parlement européen",
-    "members": 719,
-    "votes": 651,
-    "generatedAt": "2026-11-09T12:55:35.729Z",
-    "lastVote": "2026-10-22"
+    "members": 720,
+    "votes": 665,
+    "generatedAt": "2026-11-16T12:48:10.853Z",
+    "lastVote": "2026-11-12"
   }
 }
